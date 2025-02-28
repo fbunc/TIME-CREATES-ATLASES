@@ -1,4 +1,5 @@
 transforms = [
+    # Wormhole 0
     # Wormhole_0, Flower_0: "xyz"
     {"wormhole": 0, "flower": 0, "group": "xyz",    "func": lambda u,v,w: (  u,  v,  w)},
     {"wormhole": 0, "flower": 0, "group": "xyz",    "func": lambda u,v,w: (  u, -v,  w)},
@@ -9,7 +10,6 @@ transforms = [
     {"wormhole": 0, "flower": 0, "group": "yxz",    "func": lambda u,v,w: (  v, -u,  w)},
     {"wormhole": 0, "flower": 0, "group": "yxz",    "func": lambda u,v,w: ( -v,  u,  w)},
     {"wormhole": 0, "flower": 0, "group": "yxz",    "func": lambda u,v,w: ( -v, -u,  w)},
-    
     # Wormhole_0, Flower_1: "xy(-z)"
     {"wormhole": 0, "flower": 1, "group": "xy(-z)", "func": lambda u,v,w: (  u,  v, -w)},
     {"wormhole": 0, "flower": 1, "group": "xy(-z)", "func": lambda u,v,w: (  u, -v, -w)},
@@ -21,6 +21,7 @@ transforms = [
     {"wormhole": 0, "flower": 1, "group": "yx(-z)", "func": lambda u,v,w: ( -v,  u, -w)},
     {"wormhole": 0, "flower": 1, "group": "yx(-z)", "func": lambda u,v,w: ( -v, -u, -w)},
     
+    # Wormhole 1
     # Wormhole_1, Flower_2: "zxy"
     {"wormhole": 1, "flower": 2, "group": "zxy",    "func": lambda u,v,w: (  w,  u,  v)},
     {"wormhole": 1, "flower": 2, "group": "zxy",    "func": lambda u,v,w: (  w,  u, -v)},
@@ -43,6 +44,7 @@ transforms = [
     {"wormhole": 1, "flower": 3, "group": "(-z)yx", "func": lambda u,v,w: (-w, -v,  u)},
     {"wormhole": 1, "flower": 3, "group": "(-z)yx", "func": lambda u,v,w: (-w, -v, -u)},
     
+    # Wormhole 2
     # Wormhole_2, Flower_4: "xzy"
     {"wormhole": 2, "flower": 4, "group": "xzy",    "func": lambda u,v,w: (  u,  w,  v)},
     {"wormhole": 2, "flower": 4, "group": "xzy",    "func": lambda u,v,w: (  u,  w, -v)},
